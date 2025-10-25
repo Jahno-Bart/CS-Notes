@@ -1,5 +1,3 @@
-
-
 ## Big O Notation
  
 
@@ -17,7 +15,7 @@ In big O notation, we don't care about the constant, only how it scales. Therefo
 
 #### Linear Functions 
 
-Takes the form of f(n) = an + b where a and b are constants 
+Takes the form of f(n) = an+ b where a and b are constants 
 We only care about the dominant term – ignore b 
 Linear complexity is where the execution time rises in direct proportion with the input size 
 
