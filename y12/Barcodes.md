@@ -1,6 +1,6 @@
 #### Barcodes
 
-A combination of several bars that make uo an individual character or digit called **symbol**
+A combination of several bars that make up an individual character or digit called **symbol**
 
 Barcode readers use light sensors to detect different intensities of light when it shines on either the black line or the white line. Then using an ADC, it is converted to digital
 
