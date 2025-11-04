@@ -15,7 +15,7 @@ A set is usually denoted by a capital letter
 
 Example: C = {red, orange, yellow, green, blue, indigo, violet} 
 
- 
+<br><br>
 
 **Why sets?**
 
@@ -36,6 +36,8 @@ There is only one empty set
 
 If S is a set, then the expression x∈S means ‘x is a member of the set S’ 
 
+<br><br>
+
 ### **Set Comprehension:** 
 
 A set can be defined by stating the properties held by the members, but not by the non-members 
@@ -49,7 +51,7 @@ Compact version:
 S = { x ∈ N | x is even } 
  
 
- 
+<br><br>
 
 ### **Set Operations:** 
 
@@ -77,7 +79,7 @@ Intersection: B n A => {e,a, t}
 
 Difference: B \ A => {h} 
 
- 
+<br><br>
 
 
 ### Subsets
@@ -100,7 +102,7 @@ A x B  =>  read as ‘A cross B’
 1. A = {1,2} and B = {4,8}
    What is A X B? 
    A X B = {1,4}, {1, 8}, {2, 4}, {2, 8} 
-
+<br><br>
  
 
 ### Cardinality 
