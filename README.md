@@ -5,6 +5,9 @@ We're sharing them so our friends and others can use them for studying.
 
 > ⚠️ These notes may contain mistakes — use at your own discretion!
 
+## References
+- [Finite state machines](https://adacomputerscience.org/concepts/machines_fsm?topic=machines_with_memory)
+
 ## License
 Shared under the CC BY-NC-SA 4.0 License.  
 You’re free to use and share them for non-commercial purposes, with attribution.
