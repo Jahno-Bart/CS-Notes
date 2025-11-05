@@ -6,7 +6,7 @@ We're sharing them so our friends and others can use them for studying.
 > ⚠️ These notes may contain mistakes — use at your own discretion!
 
 ## References
-# Year 13
+### Year 13
 - [Finite state machines](https://adacomputerscience.org/concepts/machines_fsm?topic=machines_with_memory)
 
 ## License
