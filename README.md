@@ -1,7 +1,7 @@
 # Computer Science Notes
 
-These are my personal notes on various CS topics (algorithms, OS, networks, etc.).
-I’m sharing them so my friends and others can use them for studying.
+These are our personal notes on various CS topics (algorithms, OS, networks, etc.) for AQA A-Level computer science.
+I’m sharing them so our friends and others can use them for studying.
 
 > ⚠️ These notes may contain mistakes — use at your own discretion!
 
