@@ -20,7 +20,7 @@ We only care about the dominant term – ignore b 
 Linear complexity is where the execution time rises in direct proportion with the input size 
 
 f(n) is called the order of magnitude function for a linear function And is written O(n) 
-<br<br>
+<br><br>
 
 
 #### Polynomial Functions 
@@ -35,7 +35,7 @@ $F(n^2)$ is called the order of magnitude function for a polynomial function, an
 #### Logarithmic Functions
 Takes the form $f(n) = log_2(n)$ (BASE 2)
 Consider $n = 2^f(n)$ as the logarithm $f(n) = log_2(n)$
-f(n) increases very slowly in relation to n
+, f(n) increases very slowly in relation to n
 
 Written O($logn$)
 
