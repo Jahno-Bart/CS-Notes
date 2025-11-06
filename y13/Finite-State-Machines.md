@@ -62,10 +62,16 @@ Finite state machines that include outputs have specific names. A Mealy machine 
 To specify an output in a state transition diagram, you need to label the output on the transition and use a vertical bar to separate input and output, as shown below. 
 
 
-**Regular Language** - a formal language that comprises of a set of strings and These strings are made up of symbols from a defined alphabet. 
+## Regular Language
+a formal language that comprises of a set of strings and These strings are made up of symbols from a defined alphabet. 
 
-**A-Level Definition** = A regular language is a language that can be defined by a regular expression otherwise it's not a regular language
+**A-Level Definition** = A regular language is a language that can be defined by either a regular expression or a finite state machine otherwise it's not a regular language
+Therefore anything you can describe with a regular expression,
+you can also recognize with a finite state machine, and
+anything a finite state machine can recognize,
+you can write as a regular expression.
 
+<br><br>
 
 Regular expressions use a compact notation to describe the set of strings that make up a regular language. They are a very precise way of specifying a pattern that applies to all members of the set and are particularly useful when the set has many elements. 
 
