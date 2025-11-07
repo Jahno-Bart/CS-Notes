@@ -5,12 +5,14 @@ We're sharing them so our friends and others can use them for studying.
 
 > ⚠️ These notes may contain mistakes — use at your own discretion!
 
-<br><br>
-
 ## References
 ### Year 12
 - [Hash tables](https://adacomputerscience.org/concepts/struct_hash_table)
 - [Dictionaries](https://adacomputerscience.org/concepts/struct_dictionary)
+- [Encryption](https://adacomputerscience.org/topics/encryption)
+- [Input devices](https://adacomputerscience.org/concepts/hard_input)
+- [Boolean logic](https://adacomputerscience.org/topics/boolean_logic)
+- [Compression](https://adacomputerscience.org/topics/compression)
 
 ### Year 13
 - [Finite state machines](https://adacomputerscience.org/concepts/machines_fsm?topic=machines_with_memory)
