@@ -65,7 +65,7 @@ An easy way to think about it is, how many times are we assigning something
 - Big O for Linear Search is O(n)
 - Big O for Binary Search is O($log_2(n)$)
 - Big O for Bubble Sort is O($n^2$)
-- Big O for Merge Sort is O(${nlogn}$)
+- Big O for Merge Sort is O($nlogn$)
 
 Space Complexity is how much memory is used
 
