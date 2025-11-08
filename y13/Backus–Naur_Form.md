@@ -17,7 +17,7 @@ The chevrons (< >) are used to denote a non-terminal symbol. If a **non-terminal
 
 `<fullname>::=<title><name><name>`
 
-This shoes that **full name** comprises a **title**, a **name** and another **name**. However, all three component parts are non-terminal. Therefore, further production rules are required. For example a production rule may define **title** as follows:
+This shows that **full name** comprises a **title**, a **name** and another **name**. However, all three component parts are non-terminal. Therefore, further production rules are required. For example a production rule may define **title** as follows:
 
 `<title></title>:= Mr|Mrs|Ms|Miss|Dr`
 
@@ -52,10 +52,10 @@ But where would you stop? How many digits can a number have? **Recursion allows 
 
 `<digit>::= 0|1|2|3|4|5|6|7|8|9`
 
-Now you can see that the prod rules to ask if the following sets of digits are numbers: 2, 16, 234
+Now you can see that the production rules to ask if the following sets of digits are numbers: 2, 16, 234
 <br><br>
 <br><br>
-### Parse three
+### Parse Tree
 
 Parse trees can be very useful to check whether a string satisfies a production rule.
 
