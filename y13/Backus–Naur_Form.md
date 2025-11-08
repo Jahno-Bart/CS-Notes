@@ -167,7 +167,7 @@ When we write expressions with parentheses — like (a + (b * c)) — every open
 
 A finite state machine (FSM) is a kind of computer model that can only be in one of a limited number of states at a time. It doesn’t have memory, it can only “remember” where it is right now.
 
-If you wanted an FSM to check for balanced parentheses, it would need to “remember” how many ( parentheses it has seen so far and hasn’t closed yet. That means it would need:
+If you wanted an FSM to check for balanced parentheses, it would need to “remember” how many parentheses it has seen so far and hasn’t closed yet. That means it would need:
 
 - One state for 0 open parentheses,
 
