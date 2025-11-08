@@ -163,7 +163,7 @@ So the rule `<number>::= <digit>|<digit><number>` would be represented by:
 
 Since all regular languages are context-free, you can convert every regular expression to a BNF production rule (or set of rules). However the reverse is not true.
 
-When we write expressions with parentheses — like (a + (b * c)) — every open parenthesis ( must have a matching close parenthesis ) later on.
+When we write expressions with parenthesis like (a + (b * c)) — every open parenthesis ( must have a matching close parenthesis ) later on.
 
 A finite state machine (FSM) is a kind of computer model that can only be in one of a limited number of states at a time. It doesn’t have memory, it can only “remember” where it is right now.
 
