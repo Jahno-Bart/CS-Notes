@@ -1,3 +1,13 @@
+### Definitions
+
+**Production Rules:** Allows us to construct complex terms from terminal
+
+**Terminal Symbol:** Something that cannot be broken down
+
+**Non-Terminal:** Something that can be broken down
+
+**Syntax Diagrams:** A visual repesentation of a BNF
+<br><br>
 ### Context-free Languages
 **Backus–Naur Form can be defined as a context-free grammar**. Most programming languages can be defined as context-free languages and context-free languages are more complex than regular languages.
 To define the set of strings in a particular context free language, use **context-free grammar: a set of production rules that describe all possible strings in a given language**.
@@ -6,6 +16,17 @@ To define the set of strings in a particular context free language, use **contex
 ### Backus-Naur Form
 
 BNF (Backus–Naur Form) is a context-free grammar commonly used by developers of programming languages to specify the syntax rules of a language.
+
+It is known as a **meta language** - meta language being a language that describes a language
+<br><br>
+**Why is it used in programming languages?**
+
+It makes sure that code people have written is in the correct syntax by giving it many rules
+
+An instruction for a computer must not be ambiguous in any way
+
+BNF can be used by compiler writers to represent precise syntax of a programming language
+<br><br>
 
 BNF uses a range of symbols and expressions to create **production rules**. A simple BNF production rule might look like this:
 
@@ -39,6 +60,8 @@ Here is a complete set of rules:
 <br><br>
 <br><br>
 ### Recursion in BNF production rules
+
+**Recursion:** When a function calls itself
 
 Recursion is used in BNF to write production rules to define 'one or more' of a symbol.
 
