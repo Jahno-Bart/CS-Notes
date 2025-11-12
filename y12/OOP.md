@@ -112,7 +112,7 @@ def getName(self):
 - Program to interfaces, not implementation (**Polymorphism**)
 <br><br>
 <br><br>
-### composition
+### Composition
 
 Where an object contains other instances of objects, but these other objects are created and exist only inside of the container (When container is destroyed, the composed classes are also destroyed)
 
