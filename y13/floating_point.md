@@ -90,3 +90,10 @@ How would you easily know the which number is the following:
     - Starts with one, large positive exponent
 - Smallest negative number
     - Start with one, small negative exponent
+
+
+Calculating Error
+
+**Absolute** = a-b
+
+**Relative** (a-b)/a
