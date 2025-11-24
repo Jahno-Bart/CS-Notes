@@ -40,7 +40,7 @@ A Transition Function is a function that determines how a Turing Machine moves f
 There is some rules that the turning machine must follow. 
 In these rules, the symbol □ is used to represent a blank cell on the tape. The arrows represent movement (left or right) of the read/write head.  
 
-In a state transition diagram, each rule becomes:
+In a state transition diagram, here are what each things repersent:
 - a circle (a state)
 - an arrow (a transition)
 - a label on the arrow showing:
@@ -52,38 +52,43 @@ Formatted like:
 input / output , movement
 (E.g., `0 / 0 , →`)
 
-Here are some examples of the rules:  
+Here are an examples of the rules:  
 
 **δ(S1, 0) = (S3, 0, →)**
+Start by taking the first rule: δ(S1, 0) = (S3, 0, →). You need to draw the two states and the transition line; remember to label the input, output, and movement on the transition line.
 
 ![Variable diagram](../images/Turning-Machine/transitionRule1.png)
+
+This means if in S1 and it reads 0, then write 0 and move right, go to S3.
 <br><br>
 
 **δ(S1, 1) = (S2, 1, →)**
+Now take the next rule: δ(S1, 1) = (S2, 1, →). You need to add a new state (S2) to the diagram and a transition from S1 to S2. Don’t forget to label it!
+
 ![Variable diagram](../images/Turning-Machine/transitionRule2.png)
+
+This means if in S1 and it reads 1, then write 1 and move right, go to S2.
 <br><br>
 
 **δ(S1, □) = (S5, □, →)**
+Take the next rule: δ(S1, □) = (S5, □, →). You need to add a new state (S5) to the diagram and label the transition from S1 to S5.
+
 ![Variable diagram](../images/Turning-Machine/transitionRule3.png)
+
+This means if in S1 and read blank, then write blank and move right, go to S5.
 <br><br>
 
 **δ(S2, 0) = (S2, 0, →)**
-![Variable diagram](../images/Turning-Machine/transitionRule4.png)
-<br><br>
-
 **δ(S2, 1) = (S3, 1, →)**
-<br><br>
-
 **δ(S2, □) = (S4, 0, →)**
-<br><br>
-
 **δ(S3, 0) = (S3, 0, →)**
-<br><br>
-
 **δ(S3, 1) = (S2, 1, →)**
-<br><br>
-
 **δ(S3, □) = (S4, 1, →)**
+Continue taking each rule in turn. Label the transitions carefully, until you have completed the diagram.
+
+![Variable diagram](../images/Turning-Machine/transitionRule4.png)
+
+
 <br><br>
 
 
