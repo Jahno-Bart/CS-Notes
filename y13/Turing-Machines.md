@@ -107,13 +107,14 @@ If in S3 and reads 1,then write 1, switch back to S2 and keep scanning right. so
 **δ(S3, □) = (S4, 1, →) :**
 
 At the end of the tape, if in S3, append a 1 and switch to state S4.  
+
+![Variable diagram](../images/Turning-Machine/transitionRule4.png)
+
 As transition that goes to S4 are
 - δ(S2, □) = (S4, 0, →)
 - δ(S3, □) = (S4, 1, →)
 
 this only happens when the machine reads blank and there is no rules for S4, which means S4 is a finish state
-
-![Variable diagram](../images/Turning-Machine/transitionRule4.png)
 
 
 <br><br>
