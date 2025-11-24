@@ -35,6 +35,55 @@ The memory on the Turing machine is the infinitely long tape. Data is stored and
 
 ### Relationship between transition function and state transition diagram
 
+A Transition Function is a function that determines how a Turing Machine moves from one state to the other, and can be exoressed in a state dtransition diagram.  
+  
+There is some rules that the turning machine must follow. 
+In these rules, the symbol □ is used to represent a blank cell on the tape. The arrows represent movement (left or right) of the read/write head.  
 
+In a state transition diagram, each rule becomes:
+- a circle (a state)
+- an arrow (a transition)
+- a label on the arrow showing:
+  - input symbol read
+  - output symbol written
+  - movement (→ or ←)
+
+Formatted like:
+input / output , movement
+(E.g., `0 / 0 , →`)
+
+Here are some examples of the rules:  
+
+**δ(S1, 0) = (S3, 0, →)**
+
+![Variable diagram](../images/Turning-Machine/transitionRule1.png)
+<br><br>
+
+**δ(S1, 1) = (S2, 1, →)**
+![Variable diagram](../images/Turning-Machine/transitionRule2.png)
+<br><br>
+
+**δ(S1, □) = (S5, □, →)**
+![Variable diagram](../images/Turning-Machine/transitionRule3.png)
+<br><br>
+
+**δ(S2, 0) = (S2, 0, →)**
+![Variable diagram](../images/Turning-Machine/transitionRule4.png)
+<br><br>
+
+**δ(S2, 1) = (S3, 1, →)**
+<br><br>
+
+**δ(S2, □) = (S4, 0, →)**
+<br><br>
+
+**δ(S3, 0) = (S3, 0, →)**
+<br><br>
+
+**δ(S3, 1) = (S2, 1, →)**
+<br><br>
+
+**δ(S3, □) = (S4, 1, →)**
+<br><br>
 
 
