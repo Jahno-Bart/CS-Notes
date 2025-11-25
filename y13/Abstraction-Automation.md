@@ -96,4 +96,32 @@ If later the implementation changes from array to linked list for performance re
 
 **Functional Decomposition:** Breaking up a problem into many smaller problems which can themselves be decomposed further, or are small enough to solve
 
+**Procedural Decomposition:** Process of having a problem and breaking it down into smaller sub-problems to make it easier to analyse and accomplished an identifiable task, each problem might be decomposed further. It focuses on the steps that make up the system.
+<br><br>
+
+----------
+
+
+### Automation
+
+Completing a tasks with no to little human input
+
+In computer science this is achieved by:
+
+- Creating algorithms
+- implementing the algorithms in program code (instruction)
+- implementing the models in data structures
+- executing the code
+
+----------
+
+
+### Interfaces & OOP
+
+Interfaces are a fundamental principle of OOP
+
+A class should encapsulate all of its private attributes (so theyre hidden), and sometimes private methods, which are exposed only through its intercace.
+
+The interface is provided in the form of public methods; the inner details and working of classes are hidden from the user.
+
 
