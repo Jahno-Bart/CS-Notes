@@ -96,6 +96,42 @@ The control bus is used to send control signals that manage and orchestrate the 
 - Acknowledge a communication request
 - Specify the type of data that is being transferred via the other buses (i.e. data values, instructions, or addresses)
 - Synchronise the communication between the components using the clock pulses
+- I/O read and write
+- Memory read and write
+- Reset
+
+#### Interrupts
+
+#### What do we mean by an *interrupt*?
+- An **interrupt** is a signal sent to the CPU via the **control bus**
+- It **temporarily halts the current program**
+- Allows the CPU to respond to a **higher-priority event**
+- The CPU:
+  - Completes the **current instruction**
+  - Saves the **current state** (registers, program counter)
+  - Executes an **Interrupt Service Routine (ISR)**
+  - Restores the state and resumes execution
+
+#### What is the *hierarchy of interrupts*?
+- Interrupts are assigned **priorities**
+- **Higher-priority interrupts** are handled before lower-priority ones
+- A higher-priority interrupt can **interrupt a lower-priority ISR**
+- Typical priority order (high → low):
+  - Power or hardware failure
+  - Timer / clock interrupts
+  - I/O device interrupts (keyboard, mouse, disk)
+  - Software interrupts
+
+#### Why are interrupts useful?
+- **Improves CPU efficiency**
+  - Eliminates constant **polling**
+- **Faster response times**
+  - Important events are handled immediately
+- **Supports multitasking**
+  - Allows time-sharing between processes
+- **Better system control**
+  - Critical events can override less important tasks
+<br><br>
 
 The control bus is **bidirectional**, there are two-way connections between the components that the control bus connects.
 
@@ -108,8 +144,11 @@ Examples of control signals are:
 
 ### System Clock
 
-This is an oscilllator that generates a signal used to synchronise the operations of the processor
+This is an oscillator that generates a signal used to synchronise the operations of the processor
 
 The time taken between signal changes is called a **clock cycle**. The **speed** of the clock is measured by the number of clock cycles in one second. One clock cycle per second is 1Hz.
 
+### DSP (Digital signal processing)
+
+This is used where a computer will be continually monitoring analogue inputs/signal and turning them into them into digital signals to feed into a wider system
 
