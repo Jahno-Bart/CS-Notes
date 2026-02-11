@@ -15,13 +15,12 @@ In wireless communication, the signal would consist of radio waves. In both case
 ## Synchronous and asynchronous transmission
 
 **Synchronous transmission**
-- In synchronous transmission, streams of bits are transferred over a communication channel at a constant rate. The transmitter and the receiver are synchronised using a common clock signal.
+- In synchronous transmission, streams of bits are transferred over a communication channel at a constant rate. The transmitter and the receiver are synchronised using a common clock signal. **The data is sent as one long stream or block of data, with no gaps in the transmission. The receiver counts the bits and reconstructs bytes.**
 
 **Asynchronous transmission**
-- In asynchronous transmission, there is no clock signal, so additional data (start and stop bits) is used to control the communication. Data is transmitted when it is available, rather than at specific intervals. This means that there can be periods of time when the transmission channel is idle.
+- In asynchronous transmission, there is no clock signal, so additional data (start and stop bits) is used to control the communication. *Data is transmitted when it is available, rather than at specific intervals*. This means that there can be periods of time when the transmission channel is idle. **Each byte is sent separately the moment it is available instead of waiting for a clock signal. Each byte is preceded by a start bit and ends with a stop bit or stop 'period' - a short time gap between each set of bits**
 
 <br><br>
-
 
 | Feature | Asynchronous Transmission | Synchronous Transmission |
 |-------|--------------------------|--------------------------|
@@ -33,6 +32,28 @@ In wireless communication, the signal would consist of radio waves. In both case
 | Typical use | Serial data transmission where timing may vary | Commonly used with parallel transmission |
 | Example | Serial communication | Inside a computer (address, data, and control buses) |
 
+
+
+#### Parity Bit
+
+The parity bit or check bit is added as the 8th bit as a form of error detection
+Even number of ones or odd number of ones
+
+$01101100$ is even parity
+<br><br>
+
+
+#### Latency
+
+Measured in **milliseconds**
+
+The delay between packets being sent and received
+
+Causes:
+- Distance
+- Material or medium of transmission
+- Network congestion -> Collisions
+- Priority
 
 ----------
 
@@ -59,6 +80,9 @@ In wireless communication, the signal would consist of radio waves. In both case
 | Physical size | Requires more space and infrastructure | Uses fewer wires, takes up less space |
 | Interfaces | Older parallel interfaces | Modern interfaces (e.g. USB) |
 | Example use | Short internal connections | Peripherals, long-distance communication, fibre optics |
+
+
+**Crosstalk** - Refers to electromagnetic interference between two adjacent channels or parallel wires, It gets more pronounces as the frequency (speed of transmission) increases
 
 
 ----------
@@ -104,3 +128,75 @@ Circuit switching establishes a dedicated circuit (route) between the source and
 
 Packet switching sends data as individual packets, which may take different routes to the destination and may arrive out of order or not at all. Each packet consists of a header and a payload. The header contains a sequence number, allowing the receiving device to reorder packets and detect any missing packets.
 
+
+----------
+
+#### Protocol
+
+- All communications between devices require that the devices agree on the format of the data
+
+- The set of rules relating to communication between devices is called a **Protocol**
+
+Protocol needs to define, for example:
+- Standards for physical connections and cabling
+- The rate of transmission (bit rate)
+- Data format
+- Whether transmission is synchronous or asynchronous
+- Error checking procedures
+
+Any pieces of equipment which use the same communication protocol can be linked together
+
+----------
+
+### Bit Rate and Baud Rate
+
+
+
+| Term | Definition |
+|-----|------------|
+| **Bit Rate** | The number of **bits transmitted per second**. Will never be less the than the baud rate |
+| **Baud Rate** | The number of **signal changes (symbols) per second** |
+| **Baseband** | Each signal change one bit is transmited |
+| **Broadband** | Carries signals on a dixed carrier wave. Bits are sent as variations on the waves |
+| **Bandwidth** | **Measure of how many bits are encoded on a symbol**. The more bandwidth the greater than the bit rate. **Mark scheme definition = The range of frequencies that can be transmitted across a network connection**|
+---
+
+
+| Feature | **Bit Rate** | **Baud Rate** |
+|-------|-------------|--------------|
+| What it measures | Data transmission speed | Signalling speed |
+| Unit | bits per second (bps) | baud |
+| Focus | Amount of data sent | Number of signal changes |
+| Depends on | Bits per symbol | Symbols per second |
+| Can be equal to the other? | Yes | Yes |
+| Can differ? | Yes | Yes |
+
+---
+
+**Why Bit Rate and Baud Rate Can Be the Same**
+
+Bit rate and baud rate are the same **when each signal change represents exactly one bit**.
+
+**Example**
+- Binary signalling (two signal levels)
+- One symbol represents one bit (0 or 1)
+
+If:
+- 1 signal change per second = 1 bit per second
+
+Then:
+- Bit rate = Baud rate
+<br><br>
+
+And if you have **multiple bits per signal** then the **Bit rate $\neq$ Baud rate**
+
+If:
+- 1 signal change per second = 2 bits per second
+
+Then:
+- 2 x Baud rate = Bit rate
+<br><br>
+
+## Formula:
+
+- **Bit rate** = Baud rate x number of bits per signal
