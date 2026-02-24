@@ -1,9 +1,8 @@
 # Internet
 
 **What is the internet?**
-The internet is a global system of interconnected computer networks. The internet facilitates a wide range of services, including the World Wide Web, email, internet telephony, and file sharing. In order to communicate to do any of those things, computers must use a common set of protocols referred to as the TCP/IP stack.  
+The internet is a global system of interconnected computer networks. The internet facilitates a wide range of services, including the World Wide Web, email, internet telephony, and file sharing. In order to communicate to do any of those things, computers must use a common set of protocols referred to as the TCP/IP stack.<br><br>
 
-<br><br>
 
 ## Structure of the internet
 - There were over 4.5 billion internet users as of June 2019.
@@ -20,6 +19,7 @@ The internet is a global system of interconnected computer networks. The interne
     - Don’t charge each other for using the backbone.
     - Aren’t responsible for guaranteeing its availability or reliability.  
 
+----------
 
 ## Connecting to the internet
 Your devices connect to your home hub, the hub sends your data through your ISP, and the ISP connects you to the global internet.  
@@ -37,13 +37,18 @@ This device usually includes:
 - Router – manages traffic going in and out of your home
 - Modem – converts signals so they can travel over your connection type (sometimes built into the router)
 
-![Variable diagram](../images\Internet\lan_to_isp.png )  
+<br><br>
+
+![Variable diagram](../Images/Internet/lan_to_isp.png)
+
+<br><br>
 
 Your mobile phone can switch between different networks without you really noticing. At home, it connects through your Wi‑Fi. At school or college, it joins their local network. When you’re out and about, it can access the internet through nearby mobile phone masts.
 The connection from your home router to the internet is part of a larger network owned by your ISP. This network might cover just a town or stretch across many miles to reach rural areas, supporting anywhere from a few hundred to several thousand users.
 When routers link multiple local area networks (LANs) together, the result is a wide area network (WAN). A company with several offices across a city would also be using a WAN. In the past, companies in the UK often relied on BT “leased lines,” which provided a dedicated, high‑quality connection with guaranteed bandwidth and low latency.
-Today, many organisations instead connect their offices over the internet using a virtual private network (VPN). A VPN creates a secure, encrypted link across public networks, allowing devices to communicate as if they were on the same private network, while significantly reducing costs.  
-
-![Variable diagram](../images\Internet\orp_wan.png )  
+Today, many organisations instead connect their offices over the internet using a virtual private network (VPN). A VPN creates a secure, encrypted link across public networks, allowing devices to communicate as if they were on the same private network, while significantly reducing costs.
 
 <br><br>
+
+![Variable diagram](../Images/Internet/orp_wan.png)
+
