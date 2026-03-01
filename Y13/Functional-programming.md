@@ -1,4 +1,4 @@
-#Functional Programming
+# Functional Programming
 
 **Functional programming** is an approach to programming that is built around the concept of **pure functions**. These are functions that do not modify data. The functional paradigm has no variables, and no function shares data with any other function.
 
