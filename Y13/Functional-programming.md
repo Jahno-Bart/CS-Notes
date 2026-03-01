@@ -115,7 +115,6 @@ Example: `double_number`
 
 Functions are written as `f: A → B`, meaning function `f` maps type A to type B. In programming languages like Haskell, this is written as `functionName :: InputType -> OutputType`.<br>
 
-![[Pasted image 20260301172514.png]]
 
 #### Domain and co-domain
 
@@ -141,7 +140,6 @@ Functions are written as `f: A → B`, meaning function `f` maps type A to ty
 
 The sine example shows a function where domain and co-domain are the same type, while `is_prime` demonstrates how they can differ—converting numbers into Boolean results.<br><br>
 
-![[Pasted image 20260301172854.png]]
 
 #### Function type
 
