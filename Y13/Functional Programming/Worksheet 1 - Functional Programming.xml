@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <paragraph index="6" node_type="writer">		</paragraph>
+ <object alt="" name="Picture 10" object_type="graphic"/>
+ <paragraph index="12" node_type="writer">Worksheet 3 Functional programming
+Unit 12 OOP and functional programming</paragraph>
+ <object alt="" name="Object1" object_type="ole"/>
+ <object alt="" name="Object2" object_type="ole"/>
+ <object alt="" name="Object3" object_type="ole"/>
+ <paragraph index="32" node_type="writer">Worksheet 3 Functional programming</paragraph>
+ <paragraph index="34" node_type="writer">Task 1</paragraph>
+ <paragraph index="35" node_type="writer">1.	What are the co-domains of these functions? </paragraph>
+ <paragraph index="36" node_type="writer">	(a)	ascii (x) which takes a character and returns its representation in the ASCII code.</paragraph>
+ <paragraph index="37" node_type="writer">	Number or integer, (0...255)</paragraph>
+ <paragraph index="38" node_type="writer">	(b)	A function which can decide if an Integer x is odd or even.</paragraph>
+ <paragraph index="39" node_type="writer">	Bool</paragraph>
+ <paragraph index="40" node_type="writer">	(c)	x mod 5 where x is an Integer.</paragraph>
+ <paragraph index="41" node_type="writer">	Natural number, integer (0,1,2,3,4)</paragraph>
+ <paragraph index="43" node_type="writer">2.	What are the widest possible domains for the following functions? </paragraph>
+ <paragraph index="44" node_type="writer">	(a)	Unicode (x) which returns up to 4 bytes</paragraph>
+ <paragraph index="45" node_type="writer">	Any characters in any lang</paragraph>
+ <paragraph index="46" node_type="writer">	(b)	f(x) = 2*x</paragraph>
+ <paragraph index="47" node_type="writer">	All real numbers</paragraph>
+ <paragraph index="48" node_type="writer">	(c)	hex (x) which returns a single hexadecimal digit</paragraph>
+ <paragraph index="49" node_type="writer">	16, 0 -&gt; 15</paragraph>
+ <paragraph index="51" node_type="writer">3. 	Set up and try out Haskell. </paragraph>
+ <paragraph index="52" node_type="writer">	(a)	try typing: </paragraph>
+ <paragraph index="53" node_type="writer">greeting = &quot;Hello World&quot;</paragraph>
+ <paragraph index="54" node_type="writer">main = do</paragraph>
+ <paragraph index="55" node_type="writer">  print(greeting)</paragraph>
+ <paragraph index="56" node_type="writer">		then run the program.</paragraph>
+ <paragraph index="57" node_type="writer">	(b)	Try doubleNum x = 2 * x </paragraph>
+ <paragraph index="58" node_type="writer">		and then in your main = do, try print(doubleNum 8)</paragraph>
+ <paragraph index="59" node_type="writer">	(c)	Can you write a function which will solve</paragraph>
+ <paragraph index="60" node_type="writer">		quadratic = x2 + 5x + 1</paragraph>
+ <paragraph index="61" node_type="writer">	quadratic x = x**2 + 5*x + 1</paragraph>
+ <paragraph index="62" node_type="writer">	(d)	Run your program to find the value of quadratic when x = 3.  What answer does Haskell give?</paragraph>
+ <paragraph index="65" node_type="writer">		</paragraph>
+ <paragraph index="68" node_type="writer">4. 	The function  returns the area of a circle with radius r. Write and test code to define this function. (Haskell has a built-in constant called pi.)</paragraph>
+ <paragraph index="69" node_type="writer">	How can you find out, using your function, what value Haskell assigns to pi?</paragraph>
+ <paragraph index="70" node_type="writer">		</paragraph>
+ <paragraph index="72" node_type="writer">area x = pi * (r**2)</paragraph>
+ <paragraph index="75" node_type="writer">5. 	Write and test code for a function which calculates the difference in area between 2 circles of radius r1 and r2 (hint: it might make sense to do this in two steps.)</paragraph>
+ <paragraph index="80" node_type="writer">Task 2</paragraph>
+ <paragraph index="81" node_type="writer">6. 	Write a type declaration and definition for these functions, assuming x, y, a and b are type Float. (To test these out, type them into a text editor, then load and run them.)</paragraph>
+ <paragraph index="82" node_type="writer">squArea ( x ) which returns the area of a square with sides of x</paragraph>
+ <paragraph index="84" node_type="writer">squArea x = x ** 2</paragraph>
+ <paragraph index="85" node_type="writer">main = do</paragraph>
+ <paragraph index="86" node_type="writer">  print(squArea 5</paragraph>
+ <paragraph index="88" node_type="writer">g(x, y) = 2x + 3y</paragraph>
+ <paragraph index="90" node_type="writer">g x y = (2x) + (3y) main = do print(g 3 2)</paragraph>
+ <paragraph index="94" node_type="writer">sumDiff (a, b) which returns the values of the sum of  a and b, and their difference.  Hint: a pair of values, known as a tuple, can be defined as (Int, Int) or 
+(Float, Float) etc.</paragraph>
+ <paragraph index="98" node_type="writer">7.	In a text editor, write two functions, to convert from Fahrenheit to Celsius -  and back. Include type declarations.</paragraph>
+ <paragraph index="99" node_type="writer">	A useful formula is . Test that 20C returns 68F and vice versa. </paragraph>
+ <paragraph index="107" node_type="writer">8.	In interactive mode, type the function f  x = 2 * x with no type declaration. 
+(Remember to start with the word “let”.)</paragraph>
+ <paragraph index="108" node_type="writer"> 	Run the functions for these values for x and write down the results:</paragraph>
+ <paragraph index="109" node_type="writer">5</paragraph>
+ <paragraph index="110" node_type="writer">5.0</paragraph>
+ <paragraph index="111" node_type="writer">5.123456789</paragraph>
+ <paragraph index="112" node_type="writer">“g”</paragraph>
+ <paragraph index="114" node_type="writer">9. 	The volume of a cylinder with radius r height h is given by the formula  </paragraph>
+ <paragraph index="115" node_type="writer">	Write a type declaration and definition for  a function volCylinder to calculate the volume of a cylinder, and test it with r = 1 and h = 10.  </paragraph>
+ <paragraph index="116" node_type="writer">	Verify the function type by entering:</paragraph>
+ <paragraph index="117" node_type="writer">	:type volCylinder</paragraph>
+ <paragraph index="126" node_type="writer">Extension task</paragraph>
+ <paragraph index="127" node_type="writer">	Spend ten minutes working through https://wiki.haskell.org/Learn_Haskell_in_10_minutes</paragraph>
+ <paragraph index="128" node_type="writer">Further reading: see </paragraph>
+ <paragraph index="129" node_type="writer">http://learnyouahaskell.com/     and     https://wiki.haskell.org/Haskell_in_5_steps</paragraph>
+ <object name="Rectangle 11" alt="" object_type="shape" description=""/>
+ <object name="Rectangle 11" alt="" object_type="shape" description=""/>
+ <object name="Rectangle 11" alt="" object_type="shape" description=""/>
+</indexing>

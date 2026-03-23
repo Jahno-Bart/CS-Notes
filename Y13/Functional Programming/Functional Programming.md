@@ -1,4 +1,4 @@
-# Functional Programming
+
 
 **Functional programming** is an approach to programming that is built around the concept of **pure functions**. These are functions that do not modify data. The functional paradigm has no variables, and no function shares data with any other function.
 
@@ -95,7 +95,10 @@ Pattern matching produces cleaner code than multiple selection statements in pro
 
 ## Function types
 
-A **function** is a rule that maps inputs from one set (domain/SetA) to outputs in another set (co-domain/SetB). Key points:<br>
+A **function** is a rule that maps inputs from one set (domain/SetA) to outputs in another set (co-domain/SetB).
+Or A function is a mapping of the values in the domain to the values in the co-domain
+
+Key points:<br>
 
 - **Requirement**: Every input must map to exactly one output, but not all possible outputs need to be used
 - **Domain**: The set of all possible inputs
@@ -115,6 +118,7 @@ Example: `double_number`
 
 Functions are written as `f: A → B`, meaning function `f` maps type A to type B. In programming languages like Haskell, this is written as `functionName :: InputType -> OutputType`.<br>
 
+![[Pasted image 20260301172514.png]]
 
 #### Domain and co-domain
 
@@ -140,6 +144,7 @@ Functions are written as `f: A → B`, meaning function `f` maps type A to ty
 
 The sine example shows a function where domain and co-domain are the same type, while `is_prime` demonstrates how they can differ—converting numbers into Boolean results.<br><br>
 
+![[Pasted image 20260301172854.png]]
 
 #### Function type
 
@@ -322,6 +327,9 @@ The composition creates a new function that transforms the input type of `f` d
 - - -
 
 ## Lists in functional programming<br><br>
+A **list** is a collection of elements of a similar **type**, such as **integers, characters** or **strings** enclosed in square brackets
+
+It composes of a **head** and **tail**, the head is the first elements of the list and the tails is the remainder of the list
 
 ### Recursive Structure of Lists
 
@@ -430,7 +438,7 @@ Appending uses the concatenation operator `++`:
 
 Appending is less efficient than prepending because the first list must be traversed.<br><br>
 
-- - -
+- - -2
 
 ### Recursion Over Lists
 
@@ -476,6 +484,7 @@ map (*2) [1,2,3]
 
 #### filter
 
+**Predicate** - something that defines a boolean equation
 Selects elements that satisfy a condition:
 
 ```haskell
@@ -494,6 +503,13 @@ foldr (+) 0 [1,2,3]
 ```
 
 `foldr` processes the list recursively from the right.<br><br>
+
+You also have `foldl`
+```haskell
+foldl (-) 9 [3,6,9]
+-- Result: -8
+```
+`foldl` processes the list from the left, so 9 - 3, then 5 - 6, then 0 - 9<br><br>
 
 - - -
 
@@ -547,3 +563,11 @@ Recursive functions must always define a base case, usually the empty list.
 
 Prepending (`:`) is efficient.  
 Appending (`++`) is less efficient.
+
+- - -
+
+## How is functional programming used as part of the AI revolution
+
+- Statelessness
+	- Parallel processing
+		- Scalable
